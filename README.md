@@ -1,4 +1,4 @@
-# SUPER-MAIL
+# Super-Mailer
 SUPER-MAIL  Send Inbox To All
 
 Mailer Inbox To All Gmail Yahoo Hotmail ...
