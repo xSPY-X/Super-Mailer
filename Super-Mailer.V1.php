@@ -177,7 +177,7 @@ padding-bottom: 10px;
     <input type="password" name="access_password" /><p></p><input class="buttonstyle"  type="submit" name="Submit" value="Login" />
   </form>
   <br />
-  <a style="font-size:9px; color: #B0B0B0; font-family: Verdana, Arial;" href="https://www.facebook.com/mrrb.net" title="Download Password Protector">Powered By SPY-X </a>
+   <a target="_blank" style="font-size:9px; color: #B0B0B0; font-family: Verdana, Arial;" href="https://www.facebook.com/omarrbiai.org" title="Download Password Protector">Powered By SPY-X </a>
   </div>
 </body>
 </html>
@@ -311,7 +311,7 @@ padding-bottom: 5px;
 <body style="background-color:black;" style="font-family: Arial; font-size: 11px">
 <center>  <font color="Green"> <h1 class="flash">Mailer INBOX To ALL BY SPY-X</h1></font></center>
 <ul>
-<center> <font color="#FFFF00"><li><a  title="OK" href="https://www.facebook.com/omarrbiai.org">www.facebook.com/mrrb.net</a></li> </font></center></h2></font></center>
+<center> <font color="#FFFF00"><li><a target="_blank"  title="OK" href="https://www.facebook.com/omarrbiai.org">www.facebook.com/mrrb.net</a></li> </font></center></h2></font></center>
 </ul>
 <center>
 <form action="" method="post" enctype="multipart/form-data" name="form1">
